@@ -43,20 +43,20 @@
             label1.AutoSize = true;
             label1.Location = new Point(54, 55);
             label1.Name = "label1";
-            label1.Size = new Size(84, 15);
+            label1.Size = new Size(80, 15);
             label1.TabIndex = 0;
-            label1.Text = "Patients Name";
-            label1.Click += label1_Click;
+            label1.Text = "Widget Name";
+            label1.Click += this.label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(365, 55);
             label2.Name = "label2";
-            label2.Size = new Size(31, 15);
+            label2.Size = new Size(80, 15);
             label2.TabIndex = 1;
-            label2.Text = "Age ";
-            label2.Click += label2_Click;
+            label2.Text = "Widget Price  ";
+            label2.Click += this.label2_Click;
             // 
             // textBox1
             // 
@@ -67,7 +67,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(454, 52);
+            textBox2.Location = new Point(471, 52);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 3;
@@ -83,11 +83,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(54, 327);
+            button1.Location = new Point(54, 319);
             button1.Name = "button1";
-            button1.Size = new Size(88, 36);
+            button1.Size = new Size(84, 52);
             button1.TabIndex = 5;
-            button1.Text = "Calculate Price ";
+            button1.Text = "Calculate &Price ";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -96,16 +96,16 @@
             button2.Name = "button2";
             button2.Size = new Size(99, 36);
             button2.TabIndex = 6;
-            button2.Text = "Clear";
+            button2.Text = "&Clear";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(454, 327);
+            button3.Location = new Point(437, 327);
             button3.Name = "button3";
             button3.Size = new Size(117, 36);
             button3.TabIndex = 7;
-            button3.Text = "Quit";
+            button3.Text = "&Quit";
             button3.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -122,7 +122,8 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Doctor's office ";
+            Text = "Angelique Rumsey ";
+        
             ResumeLayout(false);
             PerformLayout();
         }
